@@ -1,0 +1,26 @@
+{
+    "name": "michaelesmith/dyndns-processor-digitalocean",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Michael Smith",
+            "email": "sitecross@gmail.com"
+        }
+    ],
+    "require": {
+        "michaelesmith/dyndns-kit": "@dev",
+        "toin0u/digitalocean-v2": "^2.2",
+        "guzzlehttp/guzzle": "^6.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.4",
+        "mockery/mockery": "^1.2"
+    },
+    "autoload": {
+        "psr-4": {"DynDNSKit\\Processor\\": "src"}
+    },
+    "autoload-dev": {
+        "psr-4": {"DynDNSKit\\Tests\\Unit\\": "tests/unit", "DynDNSKit\\Tests\\Common\\": "tests/common"}
+    }
+}
