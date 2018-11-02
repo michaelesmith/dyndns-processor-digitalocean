@@ -1,5 +1,6 @@
 {
     "name": "michaelesmith/dyndns-processor-digitalocean",
+    "description": "a processor for the dyndns-kit framework to use Digital Ocean's API",
     "type": "library",
     "license": "MIT",
     "authors": [
@@ -9,7 +10,7 @@
         }
     ],
     "require": {
-        "michaelesmith/dyndns-kit": "@dev",
+        "michaelesmith/dyndns-kit": "^0.1",
         "toin0u/digitalocean-v2": "^2.2",
         "guzzlehttp/guzzle": "^6.3"
     },
